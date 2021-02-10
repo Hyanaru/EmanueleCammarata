@@ -1440,10 +1440,8 @@
 			}
 
 			body {
-				&.navPanel-visible {
-					#page-wrapper {
-						@include vendor('transform', 'translateX(#{_size(navPanel)})');
-					}
+				
+
 
 					#titleBar {
 						@include vendor('transform', 'translateX(#{_size(navPanel)})');
@@ -1455,7 +1453,7 @@
 				}
 			}
 
-	}
+	
 
 /* Small */
 
