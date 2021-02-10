@@ -2352,6 +2352,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 1680px) {
 
+		#navPanel, #titleBar {
+			display: none;
+		}
 		/* Basic */
 
 			body, input, textarea, select {
@@ -2365,6 +2368,10 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		/* Basic */
+
+		#navPanel, #titleBar {
+			display: none;
+		}
 
 			body, input, textarea, select {
 				font-size: 11pt;
@@ -2458,6 +2465,10 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
+		#navPanel, #titleBar {
+			display: none;
+		}
+
 
 			html, body {
 				overflow-x: hidden;
@@ -2607,7 +2618,7 @@ input, select, textarea {
 					#titleBar .toggle:active:before {
 						background-color: #969696;
 					}
-
+/*
 			#navPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -2698,7 +2709,7 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
-
+*/
 	}
 
 /* Small */
@@ -2713,6 +2724,10 @@ input, select, textarea {
 
 			h2, h3, h4, h5, h6 {
 				font-size: 1.25em;
+			}
+
+			#navPanel, #titleBar {
+				display: none;
 			}
 
 		/* Button */
@@ -2909,4 +2924,8 @@ input, select, textarea {
 	}
 	.CV a{
 		color:#fff;
+	}
+
+	#navPanel, #titleBar {
+		display: none;
 	}
