@@ -1,4 +1,4 @@
-** A Digital Business Card for a Software Engineer**
+**A Digital Business Card for a Software Engineer**
 
 **Introduction:**
 Welcome to my personal web page! I'm a Manu, a passionate software engineer dedicated to crafting innovative solutions and pushing the boundaries of technology. 
