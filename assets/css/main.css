@@ -1808,6 +1808,31 @@ input, select, textarea {
 				ul.contact li:first-child h3 {
 					top: 0;
 				}
+        
+/* About */
+        .about-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .about-section .image {
+        flex: 0 0 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-section img {
+        max-width: 100%;
+        border-radius: 10%;
+    }
+
+    .about-section .about-text {
+        flex: 0 0 70%;
+        padding-left: 20px;
+    }
 
 /* Dates */
 
@@ -2776,7 +2801,22 @@ input, select, textarea {
 					#banner header p {
 						font-size: 1.2em;
 					}
+        /* About */
+    .about-section {
+            flex-direction: column;
+            align-items: center;
+        }
 
+        .about-section .image {
+            flex: 0 0 auto;
+            width: 80%; /* Adjust as needed for larger dimensions */
+            margin-bottom: 20px;
+        }
+
+        .about-section .about-text {
+            padding-left: 0;
+            text-align: center;
+        }
 		/* Main */
 
 			#main {
